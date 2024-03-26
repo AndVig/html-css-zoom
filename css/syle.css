@@ -3,10 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+footer{
+    background-color: darkgray;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
 
 .row{
     display: flex;
     flex-wrap:wrap ;
+}
+.inline{
+    display: flex;
+    
 }
 .container{
     max-width: 90vw;
@@ -15,6 +28,12 @@
 }
 .col100{
     width: 100%;
+}
+.col-sm{
+    width: 10vw;
+}
+.col-big{
+    width: 40vw;
 }
 .img{
     height: 150px;
