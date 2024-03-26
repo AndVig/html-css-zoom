@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.container{
+    max-width: 90vw;
+    margin: 100px auto 0 auto;
+    
+}
+.col100{
+    width: 100%;
+}
+.img{
+    height: 150px;
+    z-index: 1;
+    
+    bottom: 0;
+}
+.img-cont{
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+    margin: 10px 10px;
+}
+.black{
+    background-color: black;
+}
+.label{
+    background-color: rgba(128, 128, 128, 0.8);
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    z-index: 2;
+    padding: 5px 10px;
+}
